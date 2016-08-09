@@ -1,0 +1,31 @@
+div.box .box-header #close{
+	background:white no-repeat;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	position:absolute;
+	right:50px;
+	top:15px;
+	text-intent:-999em;
+}
+div.box .box-header #mask{
+	background-color:#ccc;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1000;
+	width:1600px;
+	height:1000px;
+}
+div.box .box-header #login{
+	position:fixed;
+	z-index:1001;
+}
+div.box .box-header #loginCon{
+	position:relative;
+	width:670px;
+	height:380px;
+	background:blue center center no-repeat;
+}
